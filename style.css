@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bg-tebi {
+    background: url(multimedia/fondo\ 1.webp) no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    background: url(multimedia/cielo\ y\ mar.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+.div-master {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    background: url(multimedia/fondo\ 1.webp) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.nav a{
+    color: black;
+    text-align: center;
+    font-size: large;
+}
+
+
+.main {
+    margin-top: 1rem;
+    height: 120vh;
+}
+
+
+.p-tebi {
+    height: 100%;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.video-tebi {
+    width: 100%;
+}
+
+.carousel-tebi {
+    width: 50%;
+}
