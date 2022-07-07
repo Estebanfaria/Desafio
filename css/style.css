@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  background: url(../multimedia/fondo\ 1.webp) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.nav a {
+  color: black;
+  text-align: center;
+  font-size: large;
+}
+
+@media only screen and (max-width: 767px) {
+  .nav a {
+    font-size: small;
+  }
+}
+.video-tebi {
+  width: 100%;
+}
+
+.div-two {
+  width: 30%;
+  height: 90%;
+}
+.div-two img {
+  width: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+  video {
+    margin-top: 1rem;
+  }
+  .p-tebi {
+    font-size: small;
+  }
+  .section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .div-two {
+    width: 100%;
+    font-size: x-small;
+    margin-bottom: 1rem;
+  }
+}
+.bg-tebi {
+  background: url(../multimedia/fondo\ 1.webp) no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  background: url(../multimedia/cielo\ y\ mar.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+/*# sourceMappingURL=style.css.map */

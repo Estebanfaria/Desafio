@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+@import '../scss/variables';
+@import '../scss/component/footer';
+@import '../scss/component/header';
+@import '../scss/component/main';
+
+.bg-tebi {
+  background: url(../multimedia/fondo\ 1.webp) no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  background: $bg-one;
+  background-size: cover;
+  height: 100vh;
+
+}

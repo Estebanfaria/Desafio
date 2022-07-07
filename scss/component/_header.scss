@@ -1,0 +1,16 @@
+.nav {
+    background: $bg-header;
+    background-size: cover;
+  }
+  
+  .nav a {
+    color: black;
+    text-align: center;
+    font-size: large;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .nav a {
+      font-size: small;
+    }
+  }
